@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- EJERCICIO 1  -->
+    <div class="contenedor-slider">
+        <div class="slider-izquierdo" id="slider-izquierdo">
+            <img src="img/flecha-izq.svg" alt="">
+        </div>
+
+        <div class="slider-screen">
+            <img name="Imagen">
+        </div>
+
+        <div class="slider-derecho" id="slider-derecho">
+            <img src="img/flecha-der.svg" alt="">
+        </div>
+    </div>
+
+
+
+     <!-- EJERCICIO 2  -->
+    <p id="miTexto">Este es un texto de ejemplo.</p>
+    <button onclick="aumentarTexto()">Aumentar Tamaño</button>
+    <button onclick="disminuirTexto()">Disminuir Tamaño</button>
+
+
+
+     <!-- EJERCICIO 3  -->
+
+    <div class="container">
+        <h1>Leer mas o leer menos</h1>
+        <div class="card">
+            <img src="img/1.jpg" alt="">
+            <div class="card-body">
+                <h2>Bosque</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores exercitationem nesciunt ratione
+                    tempora, provident officia ut sint voluptatibus, sit earum id quaerat? Modi cumque itaque
+                    exercitationem, dicta libero iusto perspiciatis.
+                    <span id="dots">......</span>
+                <div id="more">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius officiis, obcaecati recusandae
+                        ducimus facere ea magni corporis minus, omnis rem suscipit odio et accusantium nemo quisquam
+                        accusamus ullam aliquam cum.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, officiis! Velit praesentium
+                        nobis veritatis voluptatum.</p>
+                </div>
+                </p>
+                <button onclick="readMore()" id="btn">Read More</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="dom.js"></script>
+    <!-- <script src="app.js"></script> -->
+</body>
+
+</html>
